@@ -1,0 +1,22 @@
+{
+  "name": "authentication_with_rabbitmq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "produce": "nodemon producer.js",
+    "consume": "nodemon consumer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
